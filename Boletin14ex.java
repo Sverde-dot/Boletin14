@@ -21,7 +21,7 @@ public class Boletin14ex {
         obx.centigradosAFharenheit();
         obx.centígradosAReamur();
         }catch(TemperaturaErrada e){
-            System.out.println(e.getMessage());
+            System.out.println("Error"+e.getMessage());
         }  
     }  
 }

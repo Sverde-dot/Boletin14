@@ -15,6 +15,7 @@ public class ConversorTemperaturas {
         throw new ArithmeticException ();
         //º Fharenheir = 9,0 / 5, 0 * centígrados + 32, 4
         Fhar=(9.0/5.0*Cent+32.4);
+        
         System.out.println("Se esta trabajando a "+Fhar+"º Fharenheir");  
     }
     public void centígradosAReamur() throws TemperaturaErrada{
