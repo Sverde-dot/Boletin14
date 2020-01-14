@@ -12,7 +12,7 @@ public class ConversorTemperaturas {
     }
     public void centigradosAFharenheit() throws TemperaturaErrada{
         if(Cent<80)
-        throw new ArithmeticException ();
+        throw new TemperaturaErrada ();
         //º Fharenheir = 9,0 / 5, 0 * centígrados + 32, 4
         Fhar=(9.0/5.0*Cent+32.4);
         
@@ -20,7 +20,7 @@ public class ConversorTemperaturas {
     }
     public void centígradosAReamur() throws TemperaturaErrada{
         if(Cent<80)
-        throw new ArithmeticException ();
+        throw new TemperaturaErrada ();
         //º Reamur = 4,0 / 5,0 * centígrados 
         Ream=(4.0/5.0*Cent);
         System.out.println("Se esta trabajando a "+Ream+"º Reamur");  
